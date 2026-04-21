@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-100: #e0e7ff;
+  --color-brand-500: #6366f1;
+  --color-brand-900: #312e81;
+  --color-dark-bg: #0a0a0f;
+  --color-dark-surface: #1e1e24;
+  --color-gold-accent: #f5c842;
+  --color-neon-purple: #8b5cf6;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: white;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
